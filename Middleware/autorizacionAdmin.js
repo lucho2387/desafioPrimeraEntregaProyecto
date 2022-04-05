@@ -1,4 +1,4 @@
-let admin = true
+let admin = false
 
 const autorizacionAdmin = (req, res, next) => {
     if (admin) {
