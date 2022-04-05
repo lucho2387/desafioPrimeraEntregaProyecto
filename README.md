@@ -1,6 +1,6 @@
-#desafioPrimeraEntregaProyecto
+Desafio Primera Entrega del Proyecto
 
-#Para levantar el servidor
+Para levantar el servidor
     
     npm run dev 
     
