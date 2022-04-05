@@ -161,7 +161,7 @@ class Carrito{
                         carrito[cartIndex].producto.splice(deleteIndex,1);
                         const json_carrito = JSON.stringify(carrito)
                         fs.writeFileSync('./data/carrito.json', json_carrito, 'utf-8')
-                        return `El carrito con  id: ${idCart} con el producto con id: ${idProduct} fue eliminado correctamente`
+                        return `El producto con id: ${idProduct} del carrito con  id: ${idCart} fue eliminado correctamente`
                     }else{
                         return `El producto con id: ${idProduct} no se encontro`
                     }
